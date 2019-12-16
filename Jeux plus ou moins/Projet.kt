@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     var attempts=0
 
     while (true) {
-        print("Joueur 2 : Devinez un nombre (1-100): ")
+        print("Joueur 2 : Devinez un nombre (1-50): ")
         Joueur1 = readLine()!!.toInt()
 
         when (Joueur1.compareTo(secretNumber)) {
